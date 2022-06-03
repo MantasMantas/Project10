@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7827944472553516550
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7827944472553516548}
+  - component: {fileID: 7827944472553516551}
+  m_Layer: 0
+  m_Name: EmphaticaManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7827944472553516548
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7827944472553516550}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7827944472553516551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7827944472553516550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c809788fce9009e4fa021a66269b4c20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hostName: 127.0.0.1
+  hostPort: 28000
+  deviceId: 72C811
+  debugLog: 1
+  logging: 1
+  bvp: 1
+  ibi: 1
+  gsr: 1
+  unsinchorinzedHeartRateMin: 60
+  unsinchorinzedHeartRateMax: 120
+  manipulationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.005479485
+      value: -1.0040131
+      inSlope: -0.008500518
+      outSlope: -0.008500518
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.494923
+      value: -1.0081736
+      inSlope: 0.27059612
+      outSlope: 0.27059612
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5029144
+      value: 1.0010158
+      inSlope: 0.03180393
+      outSlope: 0.03180393
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.13707928
+    - serializedVersion: 3
+      time: 0.9981247
+      value: 1
+      inSlope: -0.0020512142
+      outSlope: -0.0020512142
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  manipulationCurveWeight: 10
+  hrEvent: {fileID: 11400000, guid: efcaccaac9a7d8b4a9615feddf8b4e02, type: 2}
+  fileName: {fileID: 11400000, guid: 36eeeb5b771c6284b85a326c4b214b46, type: 2}
+  conditions: {fileID: 11400000, guid: ad0eca0c6375c4e41b18b3e69815ae7a, type: 2}
+  timeToWait: {fileID: 11400000, guid: 276e07f211c44a9459ed9aef7e868cce, type: 2}
+  conditionDuration: {fileID: 11400000, guid: 7b8fe8bfa6569a942ba007fe354565a6, type: 2}
+  manipulatedHR: 0
+  actualHR: 0
